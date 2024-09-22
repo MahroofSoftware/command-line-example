@@ -1,0 +1,11 @@
+{
+    "name": "mahroofsoftware/command-line-example",
+    "require": {
+        "symfony/console": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "MahroofSoftware\\CommandLineExample\\": "src/"
+        }
+    }
+}

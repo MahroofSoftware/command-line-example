@@ -1,0 +1,35 @@
+# Ignore Composer's vendor directory
+/vendor/
+
+/composer.lock
+
+# Ignore any system-related files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+/logs/
+/tmp/
+
+# Ignore compiled files
+*.log
+*.cache
+
+# Ignore IDE-specific files (optional)
+.idea/
+.vscode/
+phpstorm.meta.php
+
+# Ignore OS generated files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore PHPUnit coverage reports and results (if testing is added)
+/coverage/
+/test-results/
+.phpunit.result.cache
+
+# Ignore binary executable files
+/bin/console
